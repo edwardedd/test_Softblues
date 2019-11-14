@@ -118,3 +118,57 @@ body{
   text-align: left;
   margin-left: 10px;
 }
+
+.open{
+  display: none;
+}
+
+.close{
+  display: none;
+  position: relative;
+    top: 10px;
+}
+@media screen and (max-width: 600px){
+  .content_types{
+    flex-direction: column;
+  }
+
+  .content_image{
+    width: 88%;
+    height: 225px;
+  }
+
+  .content_describe{
+    padding: 20px 5px 10px 15px;
+  }
+
+  .icons_list{
+    flex-wrap: wrap;
+  }
+
+  .icon{  
+    width: 50%;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .icon_describe{
+    width: 90%;
+  }
+
+  .navigation{
+    flex-direction: column;
+    display: none;
+    width: 48%;
+    right: 10px;
+    top: 12px;
+    position: relative;
+    text-align: right;
+  }
+
+  .open{
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+}
